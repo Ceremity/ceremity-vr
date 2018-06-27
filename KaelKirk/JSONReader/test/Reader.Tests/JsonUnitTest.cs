@@ -30,23 +30,21 @@ namespace Reader.Tests {
         new DateTime(198000)
       };
 
-      // StreamReader r = new StreamReader("file.json");
-      // string json = r.ReadToEnd();
       string json = @"{
         'Song': {
           'Title': 'Capsize (feat. Emily Warren)',
           'Artist': 'FRENSHIP',
           'Album': 'A Beautiful Life Music',
           'Path': './NotTorrented/Music/Song.mp3',
-          'Duration': 238000
+          'Duration': '0001-01-01T00:00:00.0238000'
         },
         'BlockTiming': [
-          41500,
-          62000,
-          113000,
-          134000,
-          178000,
-          198000
+          '0001-01-01T00:00:00.0041500',
+          '0001-01-01T00:00:00.0062000',
+          '0001-01-01T00:00:00.0113000',
+          '0001-01-01T00:00:00.0134000',
+          '0001-01-01T00:00:00.0178000',
+          '0001-01-01T00:00:00.0198000'
         ]
       }";
 
