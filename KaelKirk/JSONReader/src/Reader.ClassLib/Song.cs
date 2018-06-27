@@ -5,10 +5,18 @@ namespace Reader.ClassLib {
     
   public class Song {
 
-    public string title;
-    public string artist;
-    public string album;
-    public string path;
+    public string Title;
+    public string Artist;
+    public string Album;
+    public string Path;
+    public DateTime Duration;
 
+    public Song(string Title, string Artist, string Album, string Path, DateTime Duration) {
+      this.Title = Title;
+      this.Artist = Artist;
+      this.Album = Album;
+      this.Path = Path;
+      this.Duration = Duration;
+    }
   }
 }

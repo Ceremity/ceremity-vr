@@ -6,7 +6,7 @@ namespace Reader.ClassLib {
   
   public class Level {
 
-    public Song song;
-    private List<DateTime> timings;
+    public Song Song;
+    public List<DateTime> BlockTiming;
   }
 }
